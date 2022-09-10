@@ -7,3 +7,15 @@ navBtn.addEventListener('click', function() {
     navBtn.classList.toggle('nav-button-close');
     body.classList.toggle('no-scroll');
 })
+
+window.addEventListener('click', function(){
+    console.log('click on window');
+
+    if() {
+
+    }
+})
+
+mobileNav.addEventListener('click', function(event){
+    event.stopPropagation()
+})
