@@ -2,8 +2,16 @@
 .footer {
   display: none;
 }
+@media (max-width:1400px) {
+  .header{
+    padding-bottom: 250px;
+  }
+}
 
 @media (max-width: 1200px) {
+
+
+
   .hero-title {
     font-size: 68px;
   }
