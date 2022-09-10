@@ -16,6 +16,7 @@
   .article-text { 
     padding-left: 50px;
     min-width: 50%;
+    margin-right: 0;
   }
   .article-img { 
     width: 45%;
