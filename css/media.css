@@ -56,6 +56,24 @@
     font-size: 14px;
     padding-left: 62px;
   }
+  .article-title {
+    font-size: 44px;
+  }
 
+}
 
+@media (max-width:720px) {
+  .article, .article:nth-child(even){
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+  
+  .article-text{
+    max-width: 100%;
+  }
+   .article-img{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 75px;
+  }
 }
