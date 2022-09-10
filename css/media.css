@@ -97,3 +97,13 @@
     margin-bottom: 75px;
   }
 }
+
+@media (max-width:560px) {
+  .footer-nav-wrapper{
+    flex-direction: column;
+  }
+  .footer-nav+.footer-nav{
+    margin-left: 0;
+    margin-top: 60px;
+  }
+}
