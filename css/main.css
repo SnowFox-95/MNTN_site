@@ -398,6 +398,12 @@ img{
 .footer {
   padding-bottom: 120px;
 }
+
+.footer-row{
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-copyright {
   display: flex;
   flex-direction: column;
