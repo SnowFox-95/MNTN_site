@@ -195,6 +195,7 @@ img{
 }
 .mobile-nav {
   position: fixed;
+  z-index: 8;
   top: 0;
   right: 0;
 
