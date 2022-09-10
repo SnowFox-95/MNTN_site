@@ -28,6 +28,9 @@ img{
 }
 
 /* BASE */
+.no-scroll{
+  overflow-y: hidden;
+}
 
 .container-wide {
   margin: 0 auto;
