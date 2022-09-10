@@ -1,7 +1,7 @@
-.header,
-.footer {
+.header, .main {
   display: none;
 }
+
 @media (max-width:1400px) {
   .header{
     padding-bottom: 250px;
